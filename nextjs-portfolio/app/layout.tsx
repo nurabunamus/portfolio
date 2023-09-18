@@ -23,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/me.jpg" />
       </Head>
       <body className={`${roboto.className} bg-slate-50 dark:bg-[#0d1117]`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
