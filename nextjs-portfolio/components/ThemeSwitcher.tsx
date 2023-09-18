@@ -33,8 +33,8 @@ export const ThemeSwitcher = () => {
         <motion.img
           src="/sun-icon.svg"
           alt="sun-icon"
-          width={35}
-          height={35}
+          width={25}
+          height={25}
           variants={iconVariants}
           initial="initial"
           animate={theme === 'light' ? 'rotated' : 'initial'}
@@ -42,7 +42,7 @@ export const ThemeSwitcher = () => {
       ) : (
         <motion.svg
           xmlns="http://www.w3.org/2000/svg"
-          height="35"
+          height="25"
           viewBox="0 0 384 512"
           className="fill-current"
           variants={iconVariants}
