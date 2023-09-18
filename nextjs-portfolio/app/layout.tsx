@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import { ThemeProvider } from './theme-provider';
+import Head from 'next/head';
 
 const roboto = Roboto({
   weight: ['400', '500', '700'],
@@ -20,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <body className={`${roboto.className} bg-slate-50 dark:bg-[#0d1117]`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main>{children}</main>

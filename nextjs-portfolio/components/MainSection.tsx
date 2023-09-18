@@ -24,18 +24,17 @@ const MainSection = () => {
     unfilled: { borderColor: '#FFFFFF' },
   };
 
-
   return (
-    <section className="flex flex-col md:flex-row items-center h-screen justify-center md:justify-around gap-3 md:h-screen md:relative">
+    <section className="flex flex-col md:flex-row items-center h-10 justify-center md:justify-center gap-3 md:h-screen md:relative">
       <motion.div
-        className="text-xl w-5/6 flex flex-col gap-10 md:gap-10 text-center md:text-4xl md:w-7/12 md:text-left md:gap-8"
+        className="text-xl w-5/6 flex flex-col gap-10 md:gap-10 text-center md:text-3xl md:w-7/12 md:text-left md:gap-8"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
         <h1 className="text-4xl md:text-4xl">
           I'm{' '}
-          <span className="text-4xl text-green-500 font-bold sm:text-6xl">
+          <span className="text-4xl text-green-500 font-bold sm:text-5xl">
             Nur Abunamus
           </span>
         </h1>
@@ -43,7 +42,7 @@ const MainSection = () => {
           Computer Engineer specialized in web development
         </h2>
         <motion.p
-          className="text-base font-semibold dark:font-normal text-gray-600 dark:text-gray-300 md:text-xl"
+          className="text-base font-semibold dark:font-normal text-gray-600 dark:text-gray-300 md:text-lg"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
@@ -83,7 +82,7 @@ const MainSection = () => {
             </motion.button>
           </Link>
           <motion.p
-            className="text-lg font-bold sm:text-2xl"
+            className="text-md font-bold sm:text-2xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.5 }}
@@ -93,7 +92,7 @@ const MainSection = () => {
         </motion.div>
       </motion.div>
       <motion.div
-        className="w-120 h-100 rounded-full overflow-hidden hidden md:block mr-30 right-6 top-20"
+        className="w-120 h-100 rounded-full overflow-hidden hidden md:block"
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.3, duration: 0.5 }}
@@ -101,7 +100,7 @@ const MainSection = () => {
         <Image
           src="/me.jpg"
           alt="me"
-          width={450}
+          width={350}
           height={100}
           className="transform hover:scale-105 transition-transform duration-300"
         />

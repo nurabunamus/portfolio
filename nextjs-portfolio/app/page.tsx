@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from '@/node_modules/@fortawesome/react-fontawesome/i
 
 export default function Home() {
   return (
-    <main className="w-11/12 mx-auto  my-10  ">
+    <main className="w-11/12 mx-auto  my-5  ">
       <Navbar />
 
       <MainSection />

@@ -23,7 +23,7 @@ export const ThemeSwitcher = () => {
 
   return (
     <motion.button
-      className={`w-16 h-16 rounded-full border-2 text-gray-500 dark:border-gray-300 dark:text-white flex justify-center items-center`}
+      className={`w-12 h-12 rounded-full border-2 text-gray-500 dark:border-gray-300 dark:text-white flex justify-center items-center`}
       initial={{ scale: 1 }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
