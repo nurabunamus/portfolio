@@ -24,6 +24,7 @@ const MainSection = () => {
     unfilled: { borderColor: '#FFFFFF' },
   };
 
+
   return (
     <section className="flex flex-col md:flex-row items-center h-screen justify-center md:justify-around gap-3 md:h-screen md:relative">
       <motion.div
@@ -66,7 +67,7 @@ const MainSection = () => {
           >
             <motion.button
               variants={iconVariants}
-              whileHover={['filled', { scale: 1.1 }]}
+              whileHover="filled"
               onHoverStart={() => setHovered(true)}
               onHoverEnd={() => setHovered(false)}
               className="w-10 h-10 rounded-full border-2 border-gray-300 text-gray-500 dark:border-gray-300 dark:text-white flex justify-center items-center hover:border-black sm:w-20 sm:h-20"
