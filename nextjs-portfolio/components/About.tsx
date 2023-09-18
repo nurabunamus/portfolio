@@ -61,12 +61,12 @@ const About = () => {
         className="w-5/6 font-medium text-center lg:text-left"
         variants={textVariants}
       >
-        <h2 className="text-3xl leading-normal md:leading-relaxed lg:text-3xl">
+        <h2 className="text-xl leading-normal md:leading-relaxed lg:text-3xl">
           I help people make the world better through quality software.
         </h2>
         <br />
         <br />
-        <p className="text-lg leading-relaxed lg:text-xl lg:leading-relaxed text-gray-600 dark:text-gray-400 text-justify">
+        <p className="text-md leading-relaxed lg:text-xl lg:leading-relaxed text-gray-600 dark:text-gray-400 text-justify">
           When I'm not spending quality time with my family or engrossed in
           historical tales, you can find me immersed in the world of
           watercolors, carefully blending colors on canvas, or delving into the

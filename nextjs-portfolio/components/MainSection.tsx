@@ -25,16 +25,16 @@ const MainSection = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row items-center h-10 justify-center md:justify-center gap-3 md:h-screen md:relative">
+    <section className="flex flex-col md:flex-row items-center h-screen  justify-center md:justify-center gap-3 md:h-screen md:relative">
       <motion.div
-        className="text-xl w-5/6 flex flex-col gap-10 md:gap-10 text-center md:text-3xl md:w-7/12 md:text-left md:gap-8"
+        className="text-lg w-5/6 flex flex-col gap-10 md:gap-10 text-center md:text-3xl md:w-7/12 md:text-left md:gap-8"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-4xl md:text-4xl">
+        <h1 className="text-2xl md:text-4xl">
           I'm{' '}
-          <span className="text-4xl text-green-500 font-bold sm:text-5xl">
+          <span className="text-3xl text-green-500 font-bold sm:text-5xl">
             Nur Abunamus
           </span>
         </h1>
@@ -42,7 +42,7 @@ const MainSection = () => {
           Computer Engineer specialized in web development
         </h2>
         <motion.p
-          className="text-base font-semibold dark:font-normal text-gray-600 dark:text-gray-300 md:text-lg"
+          className="text-base font-semibold dark:font-normal text-gray-600 dark:text-gray-300 text-sm md:text-lg"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
@@ -82,7 +82,7 @@ const MainSection = () => {
             </motion.button>
           </Link>
           <motion.p
-            className="text-md font-bold sm:text-2xl"
+            className="text-md font-bold sm:text-xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.5 }}
