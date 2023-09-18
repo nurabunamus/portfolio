@@ -51,8 +51,8 @@ const About = () => {
           <Image
             src="/me2.jpg"
             alt="me"
-            width={700}
-            height={700}
+            width={600}
+            height={600}
             className="transform hover:scale-105 transition-transform duration-300 rounded-xl"
           />
         </motion.div>
@@ -61,12 +61,12 @@ const About = () => {
         className="w-5/6 font-medium text-center lg:text-left"
         variants={textVariants}
       >
-        <h2 className="text-3xl leading-normal md:leading-relaxed lg:text-5xl">
+        <h2 className="text-3xl leading-normal md:leading-relaxed lg:text-3xl">
           I help people make the world better through quality software.
         </h2>
         <br />
         <br />
-        <p className="text-lg leading-relaxed lg:text-2xl lg:leading-relaxed text-gray-600 dark:text-gray-400 text-justify">
+        <p className="text-lg leading-relaxed lg:text-xl lg:leading-relaxed text-gray-600 dark:text-gray-400 text-justify">
           When I'm not spending quality time with my family or engrossed in
           historical tales, you can find me immersed in the world of
           watercolors, carefully blending colors on canvas, or delving into the

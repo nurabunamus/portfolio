@@ -37,7 +37,7 @@ const TechnologiesSection = () => {
   return (
     <section className="bg-gray-100 dark:bg-gray-800 py-16">
       <div className="container mx-auto">
-        <h2 className="text-xl md:text-4xl font-semibold text-center mb-8">
+        <h2 className="text-xl md:text-3xl font-semibold text-center mb-8">
           I have hands-on experience with a variety of technologies, including:
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">

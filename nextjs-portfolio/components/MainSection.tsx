@@ -69,7 +69,7 @@ const MainSection = () => {
               whileHover="filled"
               onHoverStart={() => setHovered(true)}
               onHoverEnd={() => setHovered(false)}
-              className="w-10 h-10 rounded-full border-2 border-gray-300 text-gray-500 dark:border-gray-300 dark:text-white flex justify-center items-center hover:border-black sm:w-20 sm:h-20"
+              className="w-6 h-6 rounded-full border-2 border-gray-300 text-gray-500 dark:border-gray-300 dark:text-white flex justify-center items-center hover:border-black sm:w-20 sm:h-20"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -34,16 +34,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="overlay absolute top-0 left-0 w-full h-full bg-gray-900 text-white flex flex-col justify-around opacity-0 transition-opacity duration-300 group-hover:opacity-100">
         <div className="flex w-5/6 justify-between items-center  mt-4 ml-4">
           <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
-            <FaRegFolder className="text-5xl text-green-600 cursor-pointer" />
+            <FaRegFolder className="text-4xl text-green-600 cursor-pointer" />
           </a>
           <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
-            <BsBoxArrowInUpRight className="text-5xl text-green-600 cursor-pointer" />
+            <BsBoxArrowInUpRight className="text-2xl text-green-600 cursor-pointer" />
           </a>
         </div>
         <div className="ml-4 mt-4 flex flex-col gap-4">
-          <h3 className="text-xl font-bold mb-2 text-left">{title}</h3>
+          <h3 className="text-lg font-bold mb-2 text-left">{title}</h3>
           <p className="text-sm text-left">{description}</p>
-          <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2  flex-wrap text-gray-400">
+          <ul className="text-xs md:text-sm font-titleFont  flex gap-2  flex-wrap text-gray-400">
             {skills.map((skill, index) => (
               <li key={index}>{skill}</li>
             ))}

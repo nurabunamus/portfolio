@@ -3,13 +3,13 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from 'react-icons/fa';
 const SocialIcons = () => {
   const socialLinks = [
     {
-      icon: <FaLinkedin size={24} />,
+      icon: <FaLinkedin size={20} />,
       url: 'https://www.linkedin.com/in/noor-abunamus/',
     },
-    { icon: <FaGithub size={24} />, url: 'https://github.com/nurabunamus' },
-    { icon: <FaEnvelope size={24} />, url: 'mailto:nurabunamus99@gmail.com' },
+    { icon: <FaGithub size={20} />, url: 'https://github.com/nurabunamus' },
+    { icon: <FaEnvelope size={20} />, url: 'mailto:nurabunamus99@gmail.com' },
     {
-      icon: <FaInstagram size={24} />,
+      icon: <FaInstagram size={20} />,
       url: 'https://www.instagram.com/noorin_sa1/?igshid=MzMyNGUyNmU2YQ%3D%3D',
     },
   ];
