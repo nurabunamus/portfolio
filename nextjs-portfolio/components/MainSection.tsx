@@ -32,7 +32,7 @@ const MainSection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-2xl md:text-4xl">
+        <h1 className="text-2xl md:text-4xl dark:text-white">
           I'm{' '}
           <span className="text-3xl text-green-500 font-bold sm:text-5xl">
             Nur Abunamus

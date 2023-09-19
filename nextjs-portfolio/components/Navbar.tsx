@@ -35,7 +35,7 @@ const Navbar = () => {
       className="flex justify-between space-x-4 text-center items-center h-20"
     >
       <div>
-        <p className="font-bold text-xl">Nur Abunamus</p>
+        <p className="font-bold text-xl dark:text-white">Nur Abunamus</p>
       </div>
 
       <ul className="flex justify-around w-2/6 font-medium text-gray-600 text-md dark:text-gray-100 hidden sm:flex">
