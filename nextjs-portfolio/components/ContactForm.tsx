@@ -24,7 +24,7 @@ const Contact = () => {
       className="flex flex-col justify-center items-center gap-10 p-4 md:p-8 lg:p-16 xl:p-20"
     >
       <motion.h2
-        className="text-4xl md:text-4xl font-bold text-center"
+        className="text-4xl md:text-4xl font-bold text-center dark:text-white"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.5 }}

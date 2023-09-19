@@ -82,7 +82,7 @@ const MainSection = () => {
             </motion.button>
           </Link>
           <motion.p
-            className="text-md font-bold sm:text-xl"
+            className="text-md font-bold sm:text-xl dark:text-white"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.5 }}

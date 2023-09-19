@@ -26,7 +26,7 @@ export default function Home() {
       <br />
 
       <section className=" py-12 " id="projects">
-        <h2 className="text-4xl font-semibold text-center mb-8">
+        <h2 className="text-4xl font-semibold text-center mb-8 dark:text-white">
           My Recent Work
         </h2>
         <p className="text-center text-gray-600 mb-8">

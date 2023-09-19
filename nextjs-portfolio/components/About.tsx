@@ -61,7 +61,7 @@ const About = () => {
         className="w-5/6 font-medium text-center lg:text-left"
         variants={textVariants}
       >
-        <h2 className="text-xl leading-normal md:leading-relaxed lg:text-3xl">
+        <h2 className="text-xl leading-normal md:leading-relaxed lg:text-3xl dark:text-white">
           I help people make the world better through quality software.
         </h2>
         <br />
