@@ -67,12 +67,7 @@ const About = () => {
         <br />
         <br />
         <p className="text-md leading-relaxed lg:text-xl lg:leading-relaxed text-gray-600 dark:text-gray-400 text-justify">
-          When I'm not spending quality time with my family or engrossed in
-          historical tales, you can find me immersed in the world of
-          watercolors, carefully blending colors on canvas, or delving into the
-          depths of history books and artifacts. Whether I'm creating art or
-          exploring the past, these passions ignite my curiosity and provide
-          endless inspiration.
+        I'm a computer engineering graduate who is eager and motivated to work as a web developer. I have hands-on experience in React, Tailwind, Express, and database technologies. Furthermore, I graduated from a Re:Coded backend bootcamp that emphasized the creation of engaging and functional websites. I applied my knowledge during a Google for Startups internship, where I had the opportunity to put my skills to practical use. I possess strong attention to detail, teamwork, and problem-solving skills, along with a drive to continuously learn and improve in the web development field.
         </p>
       </motion.div>
     </motion.section>

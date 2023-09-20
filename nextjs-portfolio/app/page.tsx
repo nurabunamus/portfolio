@@ -29,9 +29,7 @@ export default function Home() {
         <h2 className="text-4xl font-semibold text-center mb-8 dark:text-white">
           My Recent Work
         </h2>
-        <p className="text-center text-gray-600 mb-8">
-          Here are a few past projects I've worked on. Want to see more?
-        </p>
+       
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
           <ProjectCard

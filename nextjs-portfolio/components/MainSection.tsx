@@ -39,18 +39,9 @@ const MainSection = () => {
           </span>
         </h1>
         <h2 className="dark:text-gray-200">
-          Computer Engineer specialized in web development
+          A computer engineer specialized in web development
         </h2>
-        <motion.p
-          className="text-base font-semibold dark:font-normal text-gray-600 dark:text-gray-300 text-sm md:text-lg"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.5 }}
-        >
-          Passionate Backend Developer proficient in JavaScript, Node.js, and
-          experienced in both relational (SQL) and non-relational (NoSQL)
-          databases. Committed to continuous growth for effective web solutions.
-        </motion.p>
+        
         <br />
         <motion.div
           className="flex items-center justify-center gap-4 sm:justify-start"
